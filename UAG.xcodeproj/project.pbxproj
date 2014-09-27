@@ -14,6 +14,7 @@
 		279CFD2919D72E570060E460 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279CFD2819D72E570060E460 /* Images.xcassets */; };
 		279CFD2C19D72E570060E460 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279CFD2A19D72E570060E460 /* LaunchScreen.xib */; };
 		279CFD3819D72E570060E460 /* UAGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 279CFD3719D72E570060E460 /* UAGTests.m */; };
+		279CFD4619D7428A0060E460 /* sca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 279CFD4519D7428A0060E460 /* sca.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		279CFD3119D72E570060E460 /* UAGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UAGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		279CFD3619D72E570060E460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		279CFD3719D72E570060E460 /* UAGTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UAGTests.m; sourceTree = "<group>"; };
+		279CFD4519D7428A0060E460 /* sca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sca.jpg; path = ../../../Downloads/sca.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		279CFD1B19D72E570060E460 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				279CFD4519D7428A0060E460 /* sca.jpg */,
 				279CFD1C19D72E570060E460 /* Info.plist */,
 				279CFD1D19D72E570060E460 /* main.m */,
 			);
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				279CFD2719D72E570060E460 /* Main.storyboard in Resources */,
+				279CFD4619D7428A0060E460 /* sca.jpg in Resources */,
 				279CFD2C19D72E570060E460 /* LaunchScreen.xib in Resources */,
 				279CFD2919D72E570060E460 /* Images.xcassets in Resources */,
 			);
@@ -414,6 +418,7 @@
 				279CFD3D19D72E570060E460 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		279CFD3E19D72E570060E460 /* Build configuration list for PBXNativeTarget "UAGTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +427,7 @@
 				279CFD4019D72E570060E460 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
